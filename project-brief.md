@@ -1,204 +1,166 @@
-# Every Branch Archive Project Brief
+# Living Archive — Project Brief
 
-**Project Name:** Every Branch  
-**Project Owner:** Kenny Liu  
-**Last Updated:** December 16, 2025  
-**Status:** In Development
-
----
-
-## Naming Convention
-
-| Version | Use Case |
-|---------|----------|
-| **Every Branch** | Site name, logo, what you say out loud |
-| **Every Branch Archive** | Subtitle or tagline context |
-| **The Every Branch Archive** | Formal reference in documents |
-| **Every Branch Archive Project** | Internal project management |
+**Project Name:** Living Archive  
+**Project Owner:** Kenny Liu / ATLAS Meridia LLC  
+**Last Updated:** January 11, 2026  
+**Status:** Reframing in progress
 
 ---
 
-## Project Purpose
+## What This Is
 
-A long-term archival project to digitize, organize, and preserve the Liu family history — correcting the historical omission of women from traditional patrilineal records, and creating an accessible, bilingual resource for current and future family members.
+Living Archive is a content project and methodology for organizing your digital and physical life — accounts, media, documents, relationships, stories — in a way that's useful to you now and transferable later.
 
-Secondary purpose: Personal learning in organizing complex bodies of information and building systems designed for multi-generational longevity.
-
----
-
-## Background
-
-The Liu family possesses a "red book" (族譜) originally printed in 1983, documenting the male lineage from the first recorded Liu ancestor to that date. A reprint with updated information through 2025 is planned for **April 2026**.
-
-The traditional record excludes all female family members — mothers, daughters, sisters. Every Branch aims to digitize the existing record and systematically add the missing women, creating a more complete family history.
-
-Additionally, thousands of family photos and historical documents exist in physical form. These are being digitized to create a preserved, searchable archive.
+It's not software. It's:
+- A blog documenting approaches and tools
+- A public GitHub repo with templates and prompts for AI-assisted organization
+- Curated resources (services, tools, workflows)
+- A personal case study (the Liu family archive) that demonstrates the approach
 
 ---
 
-## Scope
+## The Problem
 
-### In Scope (V1 — Liu Side)
-- Digitization of family photos (in progress, ~50% complete)
-- Digitization of historical documents and letters
-- Digitization and parsing of the 2026 red book reprint
-- Genealogy database including women omitted from traditional records
-- Bilingual presentation (English / Traditional Chinese)
-- Archival website with tiered access (public/private)
-- Elder interviews and oral history capture
-- Documentation for long-term project succession
+People accumulate:
+- Thousands of photos across devices and cloud services
+- Hundreds of online accounts with no documentation
+- Physical documents with no digital backup
+- Family knowledge that exists only in elders' memories
+- No clear plan for what happens to any of it
 
-### Out of Scope (Deferred)
-- Peng family (maternal side) genealogy
-- AI model training on photo dataset (future phase, dependent on clean labeled data)
-- Active outreach to distant relatives (to be evaluated after V1 foundation)
+The "green box" concept from estate planning — an organized collection of documents and instructions for survivors — doesn't scale to digital life. And preparing for death feels morbid, so people procrastinate indefinitely.
+
+**Reframe:** This isn't about preparing to die. It's about knowing where everything is. The person who has their digital life organized is incidentally prepared for incapacity or death.
 
 ---
 
-## Content Types
+## The Approach
 
-| Type | Description | Current Status |
-|------|-------------|----------------|
-| Photographs | Physical family photos spanning multiple generations | ~50% digitized |
-| Red Book | Traditional genealogy record (1983, 2026 reprint) | Awaiting April 2026 |
-| Letters & Documents | Historical family correspondence, immigration papers, etc. | Not started |
-| Oral Histories | Recorded interviews with elders | Not started |
-| Genealogy Data | Structured family tree including women | Not started |
+AI changes the equation. An agent that understands your digital footprint can help with:
+- Inventorying accounts and assets
+- Organizing and tagging photos
+- Extracting information from documents
+- Creating structured records from unstructured notes
+- Maintaining the system over time
 
----
-
-## Key Constraints
-
-### Privacy
-- Some family members may object to having information/photos online
-- Wealthy family members likely more sensitive about privacy
-- Requires tiered access system and possibly individual consent process
-
-### Language
-- Red book is in Traditional Chinese
-- Site must be fully bilingual (English / Traditional Chinese)
-- Translation work required for documents and interface
-
-### Longevity
-The following must be addressed for multi-generational durability:
-- [ ] Domain ownership succession plan
-- [ ] Long-term hosting cost structure
-- [ ] Maintenance documentation for non-technical family members
-- [ ] Data backup and redundancy strategy
-- [ ] "Bus factor" contingency (what happens if owner is incapacitated)
-- [ ] Technology choices that minimize future migration needs
-
-*These will be developed as the project progresses and documented in a dedicated succession plan.*
+Living Archive documents how to use AI as the organizing tool, which stays relevant as the AI improves. We're not building software that gets eaten by AI progress — we're documenting the methodology.
 
 ---
 
-## People
+## Project Components
 
-### Project Owner
-**Kenny Liu** — Currently serving all roles: archivist, developer, project coordinator, interviewer.
+### 1. Blog Content (atlas.kennypliu.com/living-archive/)
 
-### Key Sources
-- **Ryan Liu** — Custodian of the red book. Aware of project, potential collaborator.
-- **Three living elders** — Priority for oral history interviews. Health/memory time-sensitive.
+Posts documenting:
+- The overall philosophy and approach
+- Specific workflows (photo digitization, account inventory, etc.)
+- Tool reviews and comparisons
+- Progress on the personal case study
+- Interviews or guest perspectives
 
-### Potential Collaborators
-- Not yet identified. Family outreach not yet initiated.
-- Skills that would be valuable: translation (Chinese), photography/scanning, genealogy research, web development.
+**Platform:** Route on existing Ghost + Next.js site (atlas.kennypliu.com)
 
----
+### 2. GitHub Repository (public)
 
-## Technical Approach
+- Methodology documentation
+- Prompt templates for common tasks
+- Schema examples for organizing different content types
+- Checklists and guides
+- This project brief and related planning docs
 
-### Current Infrastructure
-- Ghost CMS (headless) — already in use for atlas.kennypliu.com
-- Every Branch will initially piggyback on existing infrastructure
+**Repository:** github.com/AtlasMeridia/living-archive (rename from every-branch-archive)
 
-### Future Considerations
-- Static site generation for longevity (less dependency on active maintenance)
-- Database structure for genealogy queries
-- Image hosting and CDN for large photo archive
-- Search functionality across bilingual content
-- GitHub sync for content version control and portability
+### 3. Personal Case Study: Liu Family Archive
 
-### Software Research Needed
-- Genealogy database software evaluation (Gramps, FamilySearch, custom solution)
-- OCR/parsing tools for red book digitization
-- Photo metadata and tagging systems
-- Potential open-source contribution if custom tools are built
+The ongoing work of digitizing and organizing the Liu family history serves as:
+- Content engine (real problems, real solutions to write about)
+- Proof of concept for the methodology
+- Personal motivation to keep the project moving
 
----
+This includes:
+- Photo digitization (~50% complete)
+- Genealogy work (adding women to patrilineal record)
+- Red book integration (April 2026)
+- Elder interviews
 
-## Workstreams
-
-| Workstream | Description | Status | Owner |
-|------------|-------------|--------|-------|
-| Media Digitization | Scanning photos and documents | In progress (~50%) | Kenny |
-| Family Communications | Outreach, consent, collaboration | Not started | Kenny |
-| Elder Interviews | Oral history capture | Planned (Taiwan trip April 2025?) | Kenny |
-| Tech & Software Research | Evaluate tools, design data model | Early exploration | Kenny |
-| Data Modeling | Structure for genealogy + photo metadata | Not started | Kenny |
-| Website Development | Bilingual archival site with tiered access | Not started | Kenny |
-| Succession Planning | Documentation for long-term handoff | Not started | Kenny |
+The personal archive work is documented in `/docs/liu-family-archive/` within this repo.
 
 ---
 
-## Timeline & Milestones
+## What This Is Not
 
-### Now → April 2026 (Red Book Arrival)
-**Goal:** Foundation ready to receive and process the red book.
+- **Not a SaaS product** — no hosted service, no user accounts
+- **Not a software tool** — no app to download or install
+- **Not a startup** — developed under ATLAS Meridia for potential expense coverage, but not a venture-scale business
+- **Not prescriptive** — methodology adapts to different tools and workflows
 
-- [ ] Complete photo digitization (100%)
-- [ ] Complete document digitization (letters, papers)
-- [ ] Conduct elder interviews (Taiwan trip April 2025)
-- [ ] Finalize genealogy data structure
-- [ ] Establish photo metadata schema
-- [ ] Research/select OCR solution for red book parsing
-- [ ] Create basic website structure (even if minimal content)
-- [ ] Publish project overview to atlas.kennypliu.com
+---
 
-### April 2026 → TBD
-- [ ] Digitize and parse red book
-- [ ] Begin systematic addition of women to genealogy
-- [ ] Cross-reference photos with genealogy data
-- [ ] Populate website with organized content
-- [ ] Establish tiered access controls
-- [ ] Document succession plan
+## Audience
+
+Primary: Individuals organizing their own digital lives
+
+Secondary (future):
+- Families dealing with a deceased relative's digital estate
+- People helping aging parents get organized
+- Estate planners and professionals
+
+---
+
+## Relationship to Other Projects
+
+| Project | Relationship |
+|---------|--------------|
+| **Hinterland Atlas** | Living Archive may become a vertical within HA. Both involve documentation, memory, place. |
+| **ATLAS Meridia** | Living Archive is developed under ATLASM for business/expense purposes |
+| **10 AI Layer / AEON** | Separate projects — both use AI for organization but different domains |
+
+---
+
+## Near-Term Actions
+
+### Repository Setup
+- [ ] Rename repo from `every-branch-archive` to `living-archive`
+- [ ] Update this brief and remove/archive obsolete docs
+- [ ] Create `/docs/liu-family-archive/` for personal case study docs
+- [ ] Make repo public
+- [ ] Add README appropriate for public audience
+
+### Site Setup
+- [ ] Create `living-archive` tag in Ghost
+- [ ] Add `/living-archive` route to Next.js site
+- [ ] Design section header/layout (can match main site initially)
+- [ ] Draft first post (could be: "What is Living Archive?" or "I'm digitizing 50 years of family photos")
+
+### Content Planning
+- [ ] Outline first 3-5 posts
+- [ ] Identify which parts of existing implementation plan become blog content vs. repo docs
 
 ---
 
 ## Open Questions
 
-1. **Consent process:** How to handle family members who object to inclusion? Opt-out vs. opt-in?
-2. **Red book parsing:** Is OCR sufficient, or will manual transcription be required for handwritten sections?
-3. **Hosting longevity:** What's the 50-year hosting strategy? Endowment? Family contribution? Institutional partnership?
-4. **Collaboration model:** If family members want to contribute, what's the workflow?
-5. **Name reconciliation:** How to handle multiple romanizations of Chinese names, married names, generational names?
+1. **First post angle:** Philosophy/manifesto piece, or dive straight into a practical workflow?
+
+2. **Repo structure:** What goes in the public repo vs. stays private? The Liu family specifics should probably stay private.
+
+3. **Visual identity:** Logo, imagery direction? (Vine-covered box concept was mentioned)
+
+4. **Content cadence:** How often to publish? Tied to actual progress on personal archive, or independent?
 
 ---
 
 ## Success Criteria
 
-**Minimum Viable Archive:**
-- All accessible photos and documents digitized and organized
-- Red book digitized with women added to genealogy
-- Bilingual website accessible to family members
-- At least one elder interview captured
+**Minimum:**
+- Public repo with useful templates/prompts
+- 5+ published posts documenting the approach
+- At least one external person finds it useful
 
 **Aspirational:**
-- Comprehensive oral history collection
-- Interactive family tree with photo integration
-- Model for other families to fork/adapt (open source tooling)
-- Sustained by family beyond original project owner
-
----
-
-## Related Links
-
-- Project page: https://atlas.kennypliu.com/tools
-- *Every Branch site: TBD*
-- *GitHub repo: https://github.com/AtlasMeridia/every-branch-archive*
-- *Photo archive location: TBD*
-- *Genealogy database: TBD*
+- Recognized resource in the "digital estate" / "digital organization" space
+- Community contributions to the methodology
+- Revenue covers hosting/domain costs
 
 ---
 
@@ -206,9 +168,9 @@ The following must be addressed for multi-generational durability:
 
 | Date | Changes |
 |------|---------|
-| 2025-12-16 | Initial project brief created |
-| 2025-12-16 | Renamed from "Liu Family Archive" to "Every Branch" naming convention |
+| 2025-12-16 | Initial project brief as "Every Branch Archive" |
+| 2026-01-11 | Major reframe: renamed to "Living Archive," shifted from family archive to methodology/content project |
 
 ---
 
-*This document serves as the living reference for project scope, decisions, and progress. Update as the project evolves.*
+*This document serves as the living reference for project scope and direction.*

@@ -1,8 +1,10 @@
-# Every Branch Archive — Implementation Plan
+# Liu Family Archive — Implementation Plan
 
-**Prepared:** December 25, 2025
-**Revised:** December 25, 2025
-**Status:** Revised — Ready for Implementation
+> **Note:** This document is part of the Living Archive project's personal case study. The Liu family archive work demonstrates the methodology documented in the parent project. See `/project-brief.md` for the broader Living Archive scope.
+
+**Prepared:** December 25, 2025  
+**Revised:** January 11, 2026  
+**Status:** Reference document for personal archive work  
 **Development Model:** Solo developer + Claude Code AI-assisted development
 
 ---
